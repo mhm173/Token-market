@@ -1,17 +1,11 @@
 www.mahmwd.alywsd
 
 
----
-
-🛒 قالب متجر رقمي (مناسب لتوكني ماركت):
-
-انسخ هذا الكود كاملًا:
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>توكني ماركت - Tokeny Market</title>
   <style>
     body {
@@ -28,10 +22,6 @@ www.mahmwd.alywsd
       text-align: center;
     }
 
-    h1 {
-      margin: 0;
-    }
-
     .container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -45,15 +35,29 @@ www.mahmwd.alywsd
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       padding: 1rem;
       text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-bottom: 1rem;
     }
 
     .card h2 {
+      font-size: 1.2rem;
       margin: 0.5rem 0;
     }
 
     .price {
       color: #27ae60;
       font-weight: bold;
+      font-size: 1rem;
     }
 
     footer {
@@ -68,26 +72,35 @@ www.mahmwd.alywsd
 <body>
   <header>
     <h1>توكني ماركت</h1>
-    <p>متجر رقمي لبيع الباقات والألعاب</p>
+    <p>تطبيقات ودردشات بأسعار منافسة 💸</p>
   </header>
 
   <main class="container">
     <div class="card">
-      <h2>ببجي 60 UC</h2>
+      <img src="images/pubg.png" alt="PUBG">
+      <h2>60 شدة UC</h2>
       <p class="price">0.86$</p>
     </div>
+
     <div class="card">
-      <h2>فري فاير 530</h2>
+      <img src="images/freefire.png" alt="Free Fire">
+      <h2>530 جواهر</h2>
       <p class="price">4.62$</p>
     </div>
+
     <div class="card">
-      <h2>لايكي 1010</h2>
-      <p class="price">10$</p>
-    </div>
-    <div class="card">
-      <h2>بيغو لايف 500</h2>
+      <img src="images/bigo.png" alt="Bigo Live">
+      <h2>500 عملة</h2>
       <p class="price">9.50$</p>
     </div>
+
+    <div class="card">
+      <img src="images/yoyo.png" alt="Yoyo Chat">
+      <h2>1000 نقطة</h2>
+      <p class="price">0.85$</p>
+    </div>
+
+    <!-- يمكنك تكرار البطاقات حسب عدد التطبيقات -->
   </main>
 
   <footer>
@@ -95,6 +108,33 @@ www.mahmwd.alywsd
   </footer>
 </body>
 </html>
+
+
+---
+
+📁 ثانياً: مجلد الصور
+
+أنشئ مجلد بجانب index.html اسمه images وضع فيه الصور بهذه الأسماء:
+
+pubg.png
+
+freefire.png
+
+bigo.png
+
+yoyo.png
+
+(أو أي صور أخرى حسب التطبيقات التي تريدها)
+
+
+
+---
+
+🔄 تريدني أجهز لك كل الصور بصيغة مناسبة؟
+
+قلي بس شو التطبيقات اللي بدك تظهر صورها وأنا بجهزلك حزمة صور مناسبة لك تستخدمها على طول.
+
+
 
 
 ---
